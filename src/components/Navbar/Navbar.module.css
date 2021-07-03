@@ -1,0 +1,23 @@
+.nav {
+  grid-area: n;
+  /* background-color: cornflowerblue; */
+  padding-top: 10px;
+  border-radius: 5px;
+  text-indent: 3em;
+  line-height: 2em;
+}
+.item {
+  margin: 10px;
+  font-size: 13px;
+  font-style: normal;
+}
+.item a {
+  text-decoration: none;
+  color: #777777;
+}
+.item a:hover {
+  color: #9c9494;
+}
+.item a.active {
+  color: white;
+}
